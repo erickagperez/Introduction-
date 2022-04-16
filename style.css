@@ -1,0 +1,122 @@
+/* -------  Background Picture ------- */
+
+@import url(https://unsplash.com/photos/ej5rqUL2H4Q);
+
+/* -------  Structure ------- */
+
+body {
+	background-image:url(images/monsteraleaves.jpg);
+  margin: 0;
+}
+
+header {
+	height: 140px;
+	background-color: rgb(45, 77, 45);
+
+}
+
+footer {
+	height: 60px;
+	background-color: rgb(45, 77, 45);
+	
+}
+
+.wrapper {
+	width: 580px;
+	margin: auto;
+    padding: 50px;
+    background-color: rgb(217, 235, 141);	
+	border-radius: 15px;
+}
+
+.wrapperTwo {
+	width: 580px;
+	margin: auto;
+}
+
+img {
+ width: 100%;	
+}
+
+
+/* -------  Text ------- */
+
+header h1 {
+	font-family: 'Playfair Display', serif;
+	color: rgb(217, 235, 141);
+	margin: 0px;
+	padding-top: 24px;
+	font-size: 48px;
+	text-align:center;
+}
+
+header h2 {
+	font-family: 'Playfair Display', serif;
+	color: rgb(217, 235, 141);
+	margin: 0px;
+	padding-top: 16px;
+	font-size: 22px;
+	text-align: center;
+}
+
+/* -------  Type ------- */
+
+h1, h2, h3 {
+	color: #181717;
+	font-family: 'Noto Serif', serif;
+}
+
+h1 { font-size: 60px;}
+h2 { font-size: 40px;}
+h3 { font-size: 30px;}
+
+a, p, li, ul, ol {
+	font-family: 'Noto Sans', sans-serif;
+	color: #0a0700;
+	font-size: 24px;
+	font-weight: 500;
+    line-height: 26px;
+    text-align: justify;
+    margin: 2px;
+	text-decoration: none;	
+    
+}
+
+a:link { color: #38786a; }
+a:visited { color: purple; }
+a:hover { 
+	color: #403933; 
+	text-decoration: underline;
+}
+a:active { color: #26962f; }
+
+footer p, small {
+	color: rgb(217, 235, 141);	
+	text-align: center;
+}
+
+
+/* -------  Elements ------- */
+
+img, iframe { border-radius: 3000px;} 
+
+iframe { border: 5px solid #181717;}
+
+hr { border: .5px solid #181717;}
+
+/* -------  Spacers ------- */  
+
+.gap-sm {
+    height: 50px;
+    width: auto;
+}
+
+.gap-lg {
+    height: 200px;
+    width: auto;
+}
+
+.gap-footer {
+    height: 10px;
+    width: auto;
+}
